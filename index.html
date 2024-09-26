@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet html css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">A propos</a></li>
+                <li><a href="#nosservices">Nos services</a></li>
+                <li><a href="#contacteznous">Contactez nous</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <h1>Bienvenue a l hotel nadjet</h1>
+        <p> Votre destination de reve pour des vacances inoubliable...</p>
+    </div>
+        <section id="apropos">
+        <h2> A propos</h2>
+        <div class="aboutcontainer">
+            <div class="aboutimages">
+                <img src="assets\images\banner1.jpg" alt="image hotel">
+            </div>
+            <div class="abouttext">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis corrupti nostrum rerum obcaecati dolorum voluptatem doloribus odit consectetur ad. Magni saepe architecto debitis sit ipsum vel eaque ipsam minus, distinctio libero at reprehenderit dicta suscipit, dolores nulla error, dolor illum?
+                </p>
+            </div>
+        </div>
+        </section>
+        <section id="nosservices">
+            <h2> Nos services</h2>
+            <div class="aboutcontainer">
+                <div class="abouttext">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex minus beatae similique dicta reprehenderit nesciunt. Quam ea, nulla magnam nemo porro expedita unde officia, voluptate libero, ad quod nobis fugit vel minus dolore autem numquam dicta voluptates totam. Iure, ullam.
+                    </p>
+                </div>
+                <div class="aboutimages">
+                    <img src="/assets/images/banner1.jpg" alt="image service">
+                </div>
+            </div>
+        </section>
+        <section id="contacteznous">
+            <h2> Contactez nous</h2>
+            <form action="">
+                <label for="nom-complet">nom complet: </label>
+                <input type="text" required id="nom-complet" name="nom-complet">
+                <label for="email">email: </label>
+                <input type="email" required id="email" name="email">
+                <label for="numtel">numero telephone: </label>
+                <input type="tel" required id="numtel" name="numtel">
+                <label for="password">password: </label>
+                <input type="number" required id="password" name="password">
+                <label for="description">description: </label>
+                <textarea name="description" id="description" required cols="4" rows="4"></textarea>
+                <div class="sexe">
+                    <label for="sexe">sexe: </label>
+                    <label for="homme">homme: </label>
+                    <input type="radio" value="homme" required id="sexeh" name="sexe">
+                    <label for="femme">femme: </label>
+                    <input type="radio" required value="femme" id="sexef" name="sexe">
+                </div>
+                <input type="submit" value="envoyer">
+
+            </form>
+
+        </section>
+        <footer>
+            &copy;2024 Nadjet imestouren
+        </footer>
+
+</body>
+</html>
